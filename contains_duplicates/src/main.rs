@@ -1,9 +1,11 @@
 use std::collections::HashSet;
 use std::iter::FromIterator;
 
+#[allow(dead_code)]
 struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn contains_duplicate(nums: Vec<i32>) -> bool {
         let length = nums.len();
         // We are going to Hash the values of the vector. If the length of the hashed set is not equal, then we have duplicates.
